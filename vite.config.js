@@ -20,7 +20,7 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            ziggy: path.resolve('vendor/tightenco/ziggy/dist'), // Ensure this path is correct
+            ziggy: path.resolve(__dirname, 'vendor/tightenco/ziggy/dist'), // Ensure this path is correct
         },
     },
 });
